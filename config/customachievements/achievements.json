@@ -1,0 +1,118 @@
+{
+  "tabs": [
+    {
+      "tabname": "CustomAchievements 1",
+      "achievements": [
+        {
+          "uid": "detectLog",
+          "name": "Log detected",
+          "desc": "Pick up a log",
+          "type": "DETECT",
+          "item": "minecraft:log",
+          "statValue": 0,
+          "ignoreMeta": true,
+          "trophy": false,
+          "xpos": 0,
+          "ypos": 0
+        },
+        {
+          "uid": "craftAcaciaPlanks",
+          "name": "Acacia Planks crafted",
+          "desc": "Craft Acacia Planks",
+          "type": "CRAFT",
+          "item": "minecraft:planks",
+          "statValue": 0,
+          "meta": 4,
+          "ignoreMeta": false,
+          "parent": "detectLog",
+          "trophy": false,
+          "xpos": 2,
+          "ypos": 0
+        },
+        {
+          "uid": "placeCrafting",
+          "name": "Crafting Table placed",
+          "desc": "Place a Crafting Table",
+          "type": "PLACE",
+          "item": "minecraft:crafting_table",
+          "statValue": 0,
+          "ignoreMeta": false,
+          "parent": "craftAcaciaPlanks",
+          "trophy": true,
+          "xpos": 2,
+          "ypos": 2
+        },
+        {
+          "uid": "breakCrafting",
+          "name": "Crafting Table broken",
+          "desc": "Break a Crafting Table",
+          "type": "MINE",
+          "item": "minecraft:crafting_table",
+          "statValue": 0,
+          "ignoreMeta": false,
+          "parent": "placeCrafting",
+          "trophy": true,
+          "xpos": 0,
+          "ypos": 2
+        }
+      ]
+    },
+    {
+      "tabname": "CustomAchievements 2",
+      "achievements": [
+        {
+          "uid": "jump5",
+          "name": "Five jumps",
+          "desc": "Jump five times",
+          "type": "STAT",
+          "item": "minecraft:rabbit_foot",
+          "stat": "stat.jump",
+          "statValue": 5,
+          "ignoreMeta": false,
+          "trophy": false,
+          "xpos": 0,
+          "ypos": 0
+        },
+        {
+          "uid": "killZombie",
+          "name": "Zombie killed",
+          "desc": "Kill a zombie",
+          "type": "KILL",
+          "item": "minecraft:rotten_flesh",
+          "mob": "Zombie",
+          "statValue": 0,
+          "ignoreMeta": false,
+          "parent": "jump5",
+          "trophy": true,
+          "xpos": 2,
+          "ypos": 0
+        },
+        {
+          "uid": "interactFurnace",
+          "name": "Furnace opened",
+          "desc": "Right clicked Furnace",
+          "type": "INTERACT",
+          "item": "minecraft:furnace",
+          "statValue": 0,
+          "ignoreMeta": true,
+          "trophy": true,
+          "xpos": 0,
+          "ypos": 2
+        },
+        {
+          "uid": "useBow",
+          "name": "Shot bow",
+          "desc": "Right clicked bow",
+          "type": "USE",
+          "item": "minecraft:bow",
+          "statValue": 0,
+          "ignoreMeta": true,
+          "parent": "interactFurnace",
+          "trophy": true,
+          "xpos": 2,
+          "ypos": 2
+        }
+      ]
+    }
+  ]
+}
