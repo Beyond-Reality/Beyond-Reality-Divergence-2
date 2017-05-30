@@ -78,11 +78,6 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
-            <ReplacesOre block="cobblestone" />
-            <ReplacesOre block="gravel" />
-            <ReplacesOre block="sandstone" />
-            <ReplacesOre block="clay" />
-            <ReplacesOre block="dirt" />
         </VeinsPreset>
         <!-- Layered preset -->
         <VeinsPreset name='LayeredVeins' inherits='PresetLayeredVeins'>
@@ -93,11 +88,6 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
-            <ReplacesOre block="cobblestone" />
-            <ReplacesOre block="gravel" />
-            <ReplacesOre block="sandstone" />
-            <ReplacesOre block="clay" />
-            <ReplacesOre block="dirt" />
         </VeinsPreset>
         <!-- PipeVeins -->
         <VeinsPreset name='PipeVeins' inherits='PresetPipeVeins'>
@@ -108,11 +98,6 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
-            <ReplacesOre block="cobblestone" />
-            <ReplacesOre block="gravel" />
-            <ReplacesOre block="sandstone" />
-            <ReplacesOre block="clay" />
-            <ReplacesOre block="dirt" />
         </VeinsPreset>
         <!-- Verticle Veins -->
         <VeinsPreset name='VerticalVeins' inherits='PresetVerticalVeins'>
@@ -123,11 +108,6 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
-            <ReplacesOre block="cobblestone" />
-            <ReplacesOre block="gravel" />
-            <ReplacesOre block="sandstone" />
-            <ReplacesOre block="clay" />
-            <ReplacesOre block="dirt" />
         </VeinsPreset>
         <!-- Sparse Veins -->
         <VeinsPreset name='SparseVeins' inherits='PresetSparseVeins'>
@@ -138,11 +118,6 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
-            <ReplacesOre block="cobblestone" />
-            <ReplacesOre block="gravel" />
-            <ReplacesOre block="sandstone" />
-            <ReplacesOre block="clay" />
-            <ReplacesOre block="dirt" />
         </VeinsPreset>
         <!-- Cloud presets -->
         <CloudPreset name='StrategicCloud' inherits='PresetStrategicCloud'>
@@ -161,10 +136,6 @@
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
             <ReplacesOre block="cobblestone" />
-            <ReplacesOre block="gravel" />
-            <ReplacesOre block="sandstone" />
-            <ReplacesOre block="clay" />
-            <ReplacesOre block="dirt" />
             <BiomeType name="hills"/>
             <BiomeType name="mountain"/>
         </CloudPreset>
@@ -179,11 +150,6 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
-            <ReplacesOre block="cobblestone" />
-            <ReplacesOre block="gravel" />
-            <ReplacesOre block="sandstone" />
-            <ReplacesOre block="clay" />
-            <ReplacesOre block="dirt" />
         </StandardGenPreset>
         <StandardGenPreset name="SparseNetherrack">
             <Setting name="Size" avg="3" range="5" />
@@ -201,11 +167,6 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
-            <ReplacesOre block="cobblestone" />
-            <ReplacesOre block="gravel" />
-            <ReplacesOre block="sandstone" />
-            <ReplacesOre block="clay" />
-            <ReplacesOre block="dirt" />
         </StandardGenPreset>
         <!-- ~~~~~~~~~~~~~~~~~~ Choices Start ~~~~~~~~~~~~~~~~~~~~~~~~ -->
         <ConfigSection>
