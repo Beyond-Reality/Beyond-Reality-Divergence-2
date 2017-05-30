@@ -285,14 +285,6 @@
                         <Setting name="Frequency" avg="19" />
                         <Setting name="Height" avg="19" range="9" scaleTo="sealevel" />
                     </StandardGen>
-                    <!-- ruby -->
-                    <StandardGen name="RubyStandard" block="beyondreality:oreruby" inherits="StandardGen">
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x40221100</WireframeColor>
-                        <Setting name="Size" avg="6" range="2" />
-                        <Setting name="Frequency" avg="14" />
-                        <Setting name="Height" avg="19" range="5" scaleTo="sealevel" />
-                    </StandardGen>
                     <!-- lapis -->
                     <StandardGen name="LapisStandard" block="minecraft:lapis_ore" inherits="StandardGen">
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
@@ -397,14 +389,6 @@
                         <Setting name="Size" avg="5" range="2" />
                         <Setting name="Frequency" avg="13" />
                         <Setting name="Height" avg="40" range="5" scaleTo="sealevel" />
-                    </StandardGen>
-                    <!-- Sapphire -->
-                    <StandardGen name="SapphireStandard" block="beyondreality:oresapphire" inherits="StandardGen">
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x40221100</WireframeColor>
-                        <Setting name="Size" avg="5" range="2" />
-                        <Setting name="Frequency" avg="13" />
-                        <Setting name="Height" avg="18" range="5" scaleTo="sealevel" />
                     </StandardGen>
                 </IfCondition>
                 <!-- *************************************************** Custom Dist ********************************************************* -->
@@ -608,15 +592,12 @@
                         <Setting name="Height" avg="45" range="50" scaleTo="world" />
                     </StandardGen>
                     <!-- ***************************************************** Redstone/Ruby ********************************************************** -->
-                    <Veins name="RedstoneRubyVeins" inherits="LayeredVeins">
+                    <Veins name="RedstoneVeins" inherits="LayeredVeins">
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x40336699</WireframeColor>
                         <OreBlock block="minecraft:redstone_ore" weight="0.50" />
-                        <OreBlock block="beyondreality:oreruby" weight="0.25" />
-                        <OreBlock block="beyondreality:sparseredstone" weight="0.05" />
-                        <OreBlock block="beyondreality:sparseruby" weight="0.05" />
-                        <OreBlock block="beyondreality:sporadicredstone" weight="0.10" />
-                        <OreBlock block="beyondreality:sporadicruby" weight="0.05" />
+                        <OreBlock block="beyondreality:sparseredstone" weight="0.35" />
+                        <OreBlock block="beyondreality:sporadicredstone" weight="0.15" />
                         <!--How offten it generates-->
                         <Setting name="MotherlodeFrequency" avg="0.0045" />
                         <Setting name="MotherlodeSize" avg="2.5" range="1" />
@@ -627,15 +608,12 @@
                         <Setting name="OreRadiusMult" avg="1.0" range="0.1" />
                     </Veins>
                     <!-- Increased Chances -->
-                    <Veins name="RedstoneRubyPrefVeins" inherits="LayeredVeins">
+                    <Veins name="RedstonePrefVeins" inherits="LayeredVeins">
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x40336699</WireframeColor>
                         <OreBlock block="minecraft:redstone_ore" weight="0.50" />
-                        <OreBlock block="beyondreality:oreruby" weight="0.25" />
-                        <OreBlock block="beyondreality:sparseredstone" weight="0.05" />
-                        <OreBlock block="beyondreality:sparseruby" weight="0.05" />
-                        <OreBlock block="beyondreality:sporadicredstone" weight="0.10" />
-                        <OreBlock block="beyondreality:sporadicruby" weight="0.05" />
+                        <OreBlock block="beyondreality:sparseredstone" weight="0.35" />
+                        <OreBlock block="beyondreality:sporadicredstone" weight="0.15" />
                         <!--How offten it generates-->
                         <Setting name="MotherlodeFrequency" avg="0.0086" />
                         <Setting name="MotherlodeSize" avg="2.5" range="1" />
@@ -671,17 +649,6 @@
                         <OreBlock block="beyondreality:sporadicredstone" />
                         <Setting name="Frequency" avg="20" range="3" />
                         <Setting name="Height" avg="16" range="2" scaleTo="world" />
-                        <BiomeSet inherits="RedstoneRubyBiomes" />
-                    </StandardGen>
-                    <StandardGen name="Sparse Ruby 1" inherits="SparseStone">
-                        <OreBlock block="beyondreality:sparseruby" />
-                        <Setting name="Frequency" avg="15" range="3" />
-                        <Setting name="Height" avg="20" range="20" scaleTo="world" />
-                    </StandardGen>
-                    <StandardGen name="Sparse Ruby 2" inherits="SparseStone">
-                        <OreBlock block="beyondreality:sporadicruby" />
-                        <Setting name="Frequency" avg="20" range="3" />
-                        <Setting name="Height" avg="17" range="5" scaleTo="world" />
                         <BiomeSet inherits="RedstoneRubyBiomes" />
                     </StandardGen>
                     <!-- ***************************************************** Lapis ********************************************************** -->
@@ -735,31 +702,6 @@
                         <OreBlock block="beyondreality:sporadiclapis" />
                         <Setting name="Frequency" avg="10" range="3" />
                         <Setting name="Height" avg="30" range="15" scaleTo="world" />
-                    </StandardGen>
-                    <!-- ***************************************************** Sapphire ********************************************************** -->
-                    <StandardGen name="SapphireStandard" inherits="StandardGen">
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x40221100</WireframeColor>
-                        <OreBlock block="beyondreality:oresapphire" weight="0.55" />
-                        <OreBlock block="beyondreality:sparsapphire" weight="0.10" />
-                        <OreBlock block="beyondreality:sporadicsapphire" weight="0.35" />
-                        <Setting name="Size" avg="7" range="3" />
-                        <Setting name="Frequency" avg="6" />
-                        <Setting name="Height" avg="20" range="10" scaleTo="sealevel" />
-                        <ReplacesOre block="stone" />
-                        <ReplacesOre block="stoneBasalt" />
-                        <ReplacesOre block="stoneMarble" />
-                        <ReplacesOre block='stoneLimestone'/>
-                    </StandardGen>
-                    <StandardGen name="Sparse sapphire 1" inherits="SparseStone">
-                        <OreBlock block="beyondreality:sporadicsapphire" />
-                        <Setting name="Frequency" avg="16" range="3" />
-                        <Setting name="Height" avg="20" range="10" scaleTo="world" />
-                    </StandardGen>
-                    <StandardGen name="Sparse sapphire 2" inherits="SparseStone">
-                        <OreBlock block="beyondreality:sparsesapphire" />
-                        <Setting name="Frequency" avg="18" range="3" />
-                        <Setting name="Height" avg="20" range="10" scaleTo="world" />
                     </StandardGen>
                     <!-- ***************************************************** Emerald ********************************************************** -->
                     <Veins name="EmeraldVeins" inherits="PipeVeins">
@@ -1411,7 +1353,7 @@
                         <OreBlock block="beyondreality:sparsenickel" weight="0.50" />
                         <OreBlock block="beyondreality:sporadicnickel" weight="0.30" />
                         <!-- How Often it generates -->
-                        <Setting name='DistributionFrequency' avg="0.002"/>
+                        <Setting name='DistributionFrequency' avg="0.001"/>
                         <!--Y Level spawn -->
                         <Setting name="CloudHeight" avg="85" range="16" type="normal" scaleTo="world"/>
                         <Setting name='HeightOffset' avg='3' range='1'/>
@@ -1421,7 +1363,7 @@
                         <OreBlock block="minecraft:coal_ore" weight="0.40" />
                         <OreBlock block="beyondreality:sporadiccoal" weight="0.60" />
                         <!-- How Often it generates -->
-                        <Setting name='DistributionFrequency' avg="0.003"/>
+                        <Setting name='DistributionFrequency' avg="0.002"/>
                         <!--Y Level spawn -->
                         <Setting name="CloudHeight" avg="80" range="16" type="normal" scaleTo="world"/>
                         <Setting name='HeightOffset' avg='3' range='1'/>
@@ -1437,17 +1379,6 @@
                         <Setting name="CloudHeight" avg="75" range="11" type="normal" scaleTo="world"/>
                         <Setting name='HeightOffset' avg='3' range='1'/>
                       </Cloud>
-                      <!-- Ruby Hills/Mountains -->
-                      <Cloud name="RubyCloud" inherits="StrategicCloud">
-                        <OreBlock block="beyondreality:oreruby" weight="0.50" />
-                        <OreBlock block="beyondreality:sparseruby" weight="0.10" />
-                        <OreBlock block="beyondreality:sporadicruby" weight="0.40" />
-                        <!-- How Often it generates -->
-                        <Setting name='DistributionFrequency' avg="0.002"/>
-                        <!--Y Level spawn -->
-                        <Setting name="CloudHeight" avg="80" range="16" type="normal" scaleTo="world"/>
-                        <Setting name='HeightOffset' avg='3' range='1'/>
-                      </Cloud>
                       <!-- Emerald Hills/Mountains -->
                       <Cloud name="EmeraldCloud" inherits="StrategicCloud">
                         <OreBlock block="minecraft:emerald_ore" weight="0.40" />
@@ -1457,17 +1388,6 @@
                         <Setting name='DistributionFrequency' avg="0.001"/>
                         <!--Y Level spawn -->
                         <Setting name="CloudHeight" avg="90" range="25" type="normal" scaleTo="world"/>
-                        <Setting name='HeightOffset' avg='3' range='1'/>
-                      </Cloud>
-                      <!-- Sapphire Hills/Mountains -->
-                      <Cloud name="SapphireCloud" inherits="StrategicCloud">
-                        <OreBlock block="beyondreality:oresapphire" weight="0.45" />
-                        <OreBlock block="beyondreality:sparsapphire" weight="0.15" />
-                        <OreBlock block="beyondreality:sporadicsapphire" weight="0.40" />
-                        <!-- How Often it generates -->
-                        <Setting name='DistributionFrequency' avg="0.002"/>
-                        <!--Y Level spawn -->
-                        <Setting name="CloudHeight" avg="80" range="16" type="normal" scaleTo="world"/>
                         <Setting name='HeightOffset' avg='3' range='1'/>
                       </Cloud>
                       <!-- RedStone Hills/Mountains -->
@@ -1518,18 +1438,8 @@
                           <Setting name="Frequency" avg="15" range="6" scaleTo="world" />
                           <Setting name="Height" avg="85" range="20" scaleTo="world" />
                       </StandardGen>
-                      <StandardGen name="Sparse mountain ruby 1" inherits="SparseStone">
-                          <OreBlock block="beyondreality:sparseruby" />
-                          <Setting name="Frequency" avg="12" range="6" scaleTo="world" />
-                          <Setting name="Height" avg="85" range="20" scaleTo="world" />
-                      </StandardGen>
                       <StandardGen name="Sparse mountain emerald 1" inherits="SparseStone">
                           <OreBlock block="beyondreality:sparseemerald" />
-                          <Setting name="Frequency" avg="10" range="6" scaleTo="world" />
-                          <Setting name="Height" avg="85" range="20" scaleTo="world" />
-                      </StandardGen>
-                      <StandardGen name="Sparse mountain sapphire 1" inherits="SparseStone">
-                          <OreBlock block="beyondreality:sparsesapphire" />
                           <Setting name="Frequency" avg="10" range="6" scaleTo="world" />
                           <Setting name="Height" avg="85" range="20" scaleTo="world" />
                       </StandardGen>
