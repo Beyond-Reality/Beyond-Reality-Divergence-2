@@ -1,0 +1,138 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "blocks/bedrock",
+      "all": "blocks/stone"
+    },
+    "model": "beyondreality:block",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {
+        "model": "beyondreality:block"
+      }
+    ],
+    "inventory": [
+      {
+        "model": "beyondreality:block",
+        "transform": "forge:default-block"
+      }
+    ],
+    "type": {
+      "0": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock"
+        },
+        "model": "beyondreality:block"
+      },
+      "1": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock1"
+        },
+        "model": "beyondreality:block"
+      },
+      "2": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock2"
+        },
+        "model": "beyondreality:block"
+      },
+      "3": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock3"
+        },
+        "model": "beyondreality:block"
+      },
+      "4": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock4"
+        },
+        "model": "beyondreality:block"
+      },
+      "5": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock5"
+        },
+        "model": "beyondreality:block"
+      },
+      "6": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock6"
+        },
+        "model": "beyondreality:block"
+      },
+      "7": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock7"
+        },
+        "model": "beyondreality:block"
+      },
+      "8": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock8"
+        },
+        "model": "beyondreality:block"
+      },
+      "9": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock9"
+        },
+        "model": "beyondreality:block"
+      },
+      "10": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock10"
+        },
+        "model": "beyondreality:block"
+      },
+      "11": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock11"
+        },
+        "model": "beyondreality:block"
+      },
+      "12": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock12"
+        },
+        "model": "beyondreality:block"
+      },
+      "13": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock13"
+        },
+        "model": "beyondreality:block"
+      },
+      "14": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock14"
+        },
+        "model": "beyondreality:block"
+      },
+      "15": {
+        "textures": {
+          "particle": "blocks/bedrock",
+          "all": "beyondreality:blocks/unbreakableblock15"
+        },
+        "model": "beyondreality:block"
+      }
+    }
+  }
+}
