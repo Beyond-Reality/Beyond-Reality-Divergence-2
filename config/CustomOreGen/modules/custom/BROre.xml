@@ -98,6 +98,11 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
+            <ReplacesOre block="cobblestone" />
+            <ReplacesOre block="gravel" />
+            <ReplacesOre block="sandstone" />
+            <ReplacesOre block="clay" />
+            <ReplacesOre block="dirt" />
         </VeinsPreset>
         <!-- Verticle Veins -->
         <VeinsPreset name='VerticalVeins' inherits='PresetVerticalVeins'>
@@ -108,6 +113,9 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
+            <ReplacesOre block="gravel" />
+            <ReplacesOre block="sandstone" />
+            <ReplacesOre block="clay" />
         </VeinsPreset>
         <!-- Sparse Veins -->
         <VeinsPreset name='SparseVeins' inherits='PresetSparseVeins'>
@@ -135,7 +143,6 @@
             <ReplacesOre block='hardenedClay'/>
             <ReplacesOre block="stoneGranite" />
             <ReplacesOre block="stoneDiorite" />
-            <ReplacesOre block="cobblestone" />
             <BiomeType name="hills"/>
             <BiomeType name="mountain"/>
         </CloudPreset>
