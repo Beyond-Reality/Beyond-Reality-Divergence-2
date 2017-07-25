@@ -15,9 +15,5 @@
     "dust",
     "gem"
   ],
-  "crafting": {
-    "upgrade_stack_size": 16,
-    "barrel_easy_recipe": true
-  },
   "sneak_left_click_extracts_stack": true
 }

@@ -19,6 +19,9 @@ key_key.smoothCamera:0:NONE
 key_key.fullscreen:87:NONE
 key_key.spectatorOutlines:0:NONE
 key_key.swapHands:33:NONE
+key_key.saveToolbarActivator:46:NONE
+key_key.loadToolbarActivator:45:NONE
+key_key.advancements:38:NONE
 key_key.hotbar.1:2:NONE
 key_key.hotbar.2:3:NONE
 key_key.hotbar.3:4:NONE
@@ -28,33 +31,44 @@ key_key.hotbar.6:7:NONE
 key_key.hotbar.7:8:NONE
 key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
-key_ALT Key:56:NONE
-key_Boost Key:29:NONE
-key_Mode Switch Key:50:NONE
-key_Side Inventory Key:46:NONE
-key_Hub Expand Key:45:NONE
-key_cfg.keybind.SelectionBox:48:NONE
-key_cfg.keybind.LightLevel:38:NONE
-key_cfg.keybind.ChunkBorders:67:NONE
-key_cfg.keybind.Volume:47:NONE
-key_presets.cfg.keybind.Presets:25:NONE
-key_nei.options.keys.gui.filters:40:NONE
-key_key.auginter.skipAnimation:45:NONE
-key_psimisc.keybind:46:NONE
-key_keys.baubleshud.config:73:NONE
-key_key.betterquesting.quests:41:NONE
-key_bloodmagic.keybind.open_holding:35:NONE
-key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
-key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
-key_chiselsbytes.keybind:201:NONE
-key_Open Menu:25:NONE
-key_Toggle Freeze Effect:19:NONE
-key_Enable/Disable:0:NONE
-key_Kill Particles:0:NONE
+key_mod.ambidextrous.offhand:0:NONE
+key_mod.ambidextrous.mainhand:0:NONE
+key_key.aovbar:56:NONE
+key_quark.keybind.toggleAutojump:48:NONE
+key_quark.keybind.lockBuilding:37:NONE
+key_quark.keybind.dropoff:0:NONE
+key_quark.keybind.changeHotbar:44:NONE
+key_quark.keybind.chestSort:0:NONE
+key_quark.keybind.chestDropoff:0:NONE
+key_quark.keybind.chestMerge:0:NONE
+key_quark.keybind.chestRestock:0:NONE
+key_quark.keybind.chestExtract:0:NONE
+key_quark.keybind.emote.wave:0:NONE
+key_quark.keybind.emote.salute:0:NONE
+key_quark.keybind.emote.yes:0:NONE
+key_quark.keybind.emote.no:0:NONE
+key_quark.keybind.emote.cheer:0:NONE
+key_quark.keybind.emote.clap:0:NONE
+key_quark.keybind.emote.point:0:NONE
+key_quark.keybind.emote.shrug:0:NONE
+key_quark.keybind.emote.facepalm:0:NONE
+key_quark.keybind.emote.headbang:0:NONE
 key_key.ftbu.guide:0:NONE
 key_key.ftbu.warp:0:NONE
-key_key.loreexpansion.openJournal:38:NONE
-key_Secondary Effect:44:NONE
+key_Alternate Effect:44:NONE
+key_Activate  FINGER 0:0:NONE
+key_Activate  FINGER 1:0:NONE
+key_Activate  WRIST 0:0:NONE
+key_Activate  WRIST 1:0:NONE
+key_Activate  ANKLE 0:0:NONE
+key_Activate  ANKLE 1:0:NONE
+key_Activate  NECK:0:NONE
+key_Activate  BACK:48:NONE
+key_Activate  WAIST:0:NONE
+key_Activate  EAR 0:0:NONE
+key_Activate  EAR 1:0:NONE
+key_Activate  EYE:0:NONE
+key_Activate  HAT:0:NONE
 key_vc.key.moveForward:17:NONE
 key_vc.key.moveBack:31:NONE
 key_vc.key.moveLeft:30:NONE
@@ -73,23 +87,6 @@ key_key.jei.recipeBack:14:NONE
 key_key.jei.toggleCheatMode:0:NONE
 key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
-key_key.nextitem:26:NONE
-key_key.previtem:27:NONE
-key_key.placeitem:25:NONE
-key_key.debughandles:0:NONE
-key_key.architect.rotateBlueprint:19:NONE
-key_key.architect.toggleGrid:34:NONE
-key_key.architect.toggleAllowPartial:25:NONE
-key_key.autowalk:33:NONE
-key_key.autoaction:48:NONE
-key_Baubles Inventory:201:NONE
-key_key.toggleLiquids:38:NONE
-key_key.toggleVisible:0:NONE
-key_Mekanism Item Mode Switch:50:NONE
-key_Mekanism Armor Mode Switch:33:NONE
-key_Mekanism Voice:22:NONE
-key_bbw.key.mode:50:NONE
-key_bbw.key.fluidmode:33:NONE
 key_mod.chiselsandbits.chiselmode.single:0:NONE
 key_mod.chiselsandbits.chiselmode.snap2:0:NONE
 key_mod.chiselsandbits.chiselmode.snap4:0:NONE
@@ -117,34 +114,20 @@ key_mod.chiselsandbits.other.pickbit:0:NONE
 key_mod.chiselsandbits.other.undo:0:NONE
 key_mod.chiselsandbits.other.redo:0:NONE
 key_mod.chiselsandbits.other.add_to_clipboard:0:NONE
-key_key.clienttweaks.disable_step_assist:0:NONE
-key_key.clienttweaks.hide_offhand_item:0:NONE
-key_cyberware.keybinds.menu:19:NONE
-key_Toggle Farting:25:NONE
-key_key.evilcraft.exaltedCrafting:46:NONE
 key_keybinding.extrabitmanipulation.design:19:NONE
 key_keybinding.extrabitmanipulation.throw.bit:19:NONE
 key_keybinding.extrabitmanipulation.bitmapping:19:NONE
 key_keybinding.extrabitmanipulation.shift:0:NONE
 key_keybinding.extrabitmanipulation.control:0:NONE
 key_keybinding.extrabitmanipulation.alt:0:NONE
-key_key.fp.gleiter:57:NONE
-key_key.fp.compositearmor:46:NONE
+key_key.toggleLiquids:38:NONE
+key_key.toggleVisible:0:NONE
+key_key.immersiveengineering.magnetEquip:31:NONE
 key_invtweaks.key.sort:19:NONE
+key_Mo'Bends Menu:34:NONE
 key_Quick Commands:83:NONE
-key_key.clipboardPaste:210:NONE
 key_key.porterNextDestination:27:NONE
 key_key.porterPrevDestination:26:NONE
 key_key.debugDumpNBTItem:0:NONE
 key_key.debugDumpNBTBlock:0:NONE
-key_key.guiKey:40:NONE
 key_key.toolbelt.open:19:NONE
-key_key.uniquecrops.pixelglasses:47:NONE
-key_key.aovbar:56:NONE
-key_key.journeymap.map_toggle:36:NONE
-key_key.journeymap.zoom_in:13:NONE
-key_key.journeymap.zoom_out:12:NONE
-key_key.journeymap.minimap_type:27:NONE
-key_key.journeymap.minimap_type:27:NONE
-key_key.journeymap.minimap_preset:43:NONE
-key_key.journeymap.create_waypoint:48:NONE
