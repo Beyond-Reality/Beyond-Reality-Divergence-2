@@ -39,7 +39,7 @@
             <var>fps</var>
         </line>
     </lines>
-    <lines at="bottomright">
+    <lines at="bottemleft">
         <line>
             <max>
                 <var>potiondurationticks0</var>
