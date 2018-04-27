@@ -1,0 +1,7 @@
+setIcon("scannable:scanner")
+setTitle("scannable")
+setDescription("Unlock scannable")
+setParent("triumph:Tech/scannable-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 14)

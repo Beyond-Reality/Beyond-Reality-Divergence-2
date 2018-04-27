@@ -1,0 +1,8 @@
+setIcon("minecraft:writable_book")
+setTitle("Divergence - Basic ")
+setDescription("Welcome to Divergence! Please follow instructions using the Better Questing interface by hitting the ~ key")
+setBackground("minecraft:textures/blocks/stone.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setRequirements("any")
+addCriteria("location", "minecraft:location")

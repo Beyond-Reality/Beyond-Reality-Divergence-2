@@ -1,0 +1,5 @@
+setIcon("quark:custom_bookshelf")
+setTitle("BiblioCraft-Gate")
+setDescription("Unlock BiblioCraft")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

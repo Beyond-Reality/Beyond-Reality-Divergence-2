@@ -1,0 +1,5 @@
+setIcon("spartanshields:shield_basic_copper")
+setTitle("Spartan Sheilds")
+setDescription("Unlock Spartan Sheilds")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

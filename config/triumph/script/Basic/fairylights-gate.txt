@@ -1,0 +1,5 @@
+setIcon("fairylights:hanging_lights")
+setTitle("fairylights")
+setDescription("Unlock fairylights")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

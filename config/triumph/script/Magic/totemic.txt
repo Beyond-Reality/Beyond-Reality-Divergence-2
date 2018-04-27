@@ -1,0 +1,7 @@
+setIcon("totemic:totem_base")
+setTitle("totemic")
+setDescription("Unlock totemic")
+setParent("triumph:Magic/totemic-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 5)

@@ -1,0 +1,19 @@
+{
+  "block_pools": [{
+    "name": "BreakIron",
+    "type": {
+      "type": "block",
+      "name": "minecraft:iron_ore"
+    },
+    "clicktype": "break",
+    "properties": [{
+      "type": "consume_block",
+      "chance": "100",
+      "name": "minecraft:gold_ore",
+      "meta": "0"
+    }],
+    "drops": [{
+      "name": "minecraft:iron_nugget"
+    }]
+  }]
+}

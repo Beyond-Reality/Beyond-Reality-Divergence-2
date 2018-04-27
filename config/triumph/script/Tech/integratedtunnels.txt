@@ -1,0 +1,7 @@
+setIcon("integratedtunnels:part_importer_world_energy_item")
+setTitle("integratedtunnels")
+setDescription("Unlock integratedtunnels")
+setParent("triumph:Tech/integratedtunnels-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 6)

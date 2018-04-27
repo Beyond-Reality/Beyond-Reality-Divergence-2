@@ -1,0 +1,7 @@
+setIcon("platforms:platform")
+setTitle("platforms")
+setDescription("Unlock platforms")
+setParent("triumph:Basic/platforms-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 15)

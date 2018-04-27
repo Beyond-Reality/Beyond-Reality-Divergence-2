@@ -1,0 +1,5 @@
+setIcon("opencomputers:case1")
+setTitle("opencomputers")
+setDescription("Unlock opencomputers")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

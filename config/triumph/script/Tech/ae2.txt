@@ -1,0 +1,7 @@
+setIcon("appliedenergistics2:controller")
+setTitle("ae2")
+setDescription("Unlock ae2")
+setParent("triumph:Tech/ae2-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 10)

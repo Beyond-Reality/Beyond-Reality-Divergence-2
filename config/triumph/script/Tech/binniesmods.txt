@@ -1,0 +1,7 @@
+setIcon("binniecore:genesis")
+setTitle("binniesmods")
+setDescription("Unlock binniesmods")
+setParent("triumph:Tech/binniesmods-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 11)

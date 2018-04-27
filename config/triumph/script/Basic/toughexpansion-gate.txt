@@ -1,0 +1,5 @@
+setIcon("tanaddons:temp_regulator")
+setTitle("toughexpansion")
+setDescription("Unlock toughexpansion")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

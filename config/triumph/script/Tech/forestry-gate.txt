@@ -1,0 +1,5 @@
+setIcon("forestry:carpenter)
+setTitle("forestry")
+setDescription("Unlock forestry")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

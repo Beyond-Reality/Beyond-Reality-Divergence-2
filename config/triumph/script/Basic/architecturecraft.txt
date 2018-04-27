@@ -1,0 +1,8 @@
+setIcon("architecturecraft:largepulley")
+setTitle("architecturecraft")
+setDescription("Unlock architecturecraft")
+setParent("triumph:Basic/architecturecraft-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0")
+setRewardFunction("triumph:architecturecraft")

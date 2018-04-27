@@ -1,0 +1,7 @@
+setIcon("integrateddynamics:wrench")
+setTitle("integrateddynamics")
+setDescription("Unlock integrateddynamics")
+setParent("triumph:Tech/integrateddynamics-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 5)

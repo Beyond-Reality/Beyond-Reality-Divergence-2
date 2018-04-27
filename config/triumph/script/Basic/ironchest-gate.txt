@@ -1,0 +1,5 @@
+setIcon("ironchest:iron_chest")
+setTitle("Iron Chest")
+setDescription("Unlock Iron Chest")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

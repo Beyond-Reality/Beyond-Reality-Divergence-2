@@ -1,0 +1,7 @@
+setIcon("botania:terrasteelhelm")
+setTitle("botania Terrasteel")
+setDescription("Unlock botania Terrasteel")
+setParent("triumph:Magic/botaniaterratier-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal1", 12)

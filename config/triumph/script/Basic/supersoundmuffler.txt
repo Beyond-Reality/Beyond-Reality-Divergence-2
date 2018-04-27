@@ -1,0 +1,7 @@
+setIcon("supersoundmuffler:sound_muffler")
+setTitle("Super Sound Muffler")
+setDescription("Unlock Super Sound Muffler")
+setParent("triumph:Basic/supersoundmuffler-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal1", 1)

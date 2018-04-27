@@ -1,0 +1,7 @@
+setIcon("chisel:chisel_iron")
+setTitle("Chisel")
+setDescription("Unlock Chisel")
+setParent("triumph:Basic/chisel-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 3)

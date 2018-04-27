@@ -1,0 +1,7 @@
+setIcon("generallaymansaestheticspyingscreen:block_glass:1")
+setTitle("G.L.A.S.S")
+setDescription("Unlock G.L.A.S.S")
+setParent("triumph:Basic/generallayman'saestheticspyingscreen-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 9)

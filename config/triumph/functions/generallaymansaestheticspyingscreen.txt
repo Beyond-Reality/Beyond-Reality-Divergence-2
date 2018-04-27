@@ -1,0 +1,2 @@
+gamestage add @p generallaymansaestheticspyingscreen
+summon minecraft:fireworks_rocket ~ ~ ~

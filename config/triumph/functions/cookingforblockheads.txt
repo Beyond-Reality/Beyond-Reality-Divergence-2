@@ -1,0 +1,2 @@
+gamestage add @p cookingforblockheads
+summon minecraft:fireworks_rocket ~ ~ ~

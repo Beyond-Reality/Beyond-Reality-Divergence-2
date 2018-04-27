@@ -1,0 +1,16 @@
+setIcon("pneumaticcraft:pneumatic_dynamo")
+
+setTitle("Divergence - Tech ")
+
+setDescription("Welcome to Divergence! Please follow instructions using the Better Questing interface by hitting the ~ key")
+
+setBackground("minecraft:textures/blocks/obsidian.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+addCriteria("location", "minecraft:location")

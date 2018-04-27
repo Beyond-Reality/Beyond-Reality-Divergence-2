@@ -1,0 +1,5 @@
+setIcon("buildcraftsilicon:laser")
+setTitle("buildcraft")
+setDescription("Unlock buildcraft")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

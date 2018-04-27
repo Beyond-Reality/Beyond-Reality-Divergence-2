@@ -1,0 +1,2 @@
+gamestage add @p architecturecraft
+summon minecraft:fireworks_rocket ~ ~ ~

@@ -1,0 +1,7 @@
+setIcon("buildcraftsilicon:laser")
+setTitle("buildcraft")
+setDescription("Unlock buildcraft")
+setParent("triumph:Tech/buildcraft-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 12)

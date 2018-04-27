@@ -1,0 +1,7 @@
+setIcon("entityspring:spring")
+setTitle("Entity Spring")
+setDescription("Unlock Entity Spring")
+setParent("triumph:Basic/entityspring-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 7)

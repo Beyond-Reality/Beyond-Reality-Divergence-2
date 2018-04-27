@@ -1,0 +1,7 @@
+setIcon("opframe:opframe")
+setTitle("Online picture Frame")
+setDescription("Unlock Online picture Frame")
+setParent("triumph:Basic/onlinepictureframe-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 14)

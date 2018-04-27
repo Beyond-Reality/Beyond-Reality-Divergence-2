@@ -1,0 +1,5 @@
+setIcon("binniecore:genesis")
+setTitle("binniesmods")
+setDescription("Unlock binniesmods")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

@@ -1,0 +1,5 @@
+setIcon("entityspring:spring")
+setTitle("entityspring Gate")
+setDescription("Unlock entityspring")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

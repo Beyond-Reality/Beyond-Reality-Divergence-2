@@ -1,0 +1,7 @@
+setIcon("magneticraft:inserter")
+setTitle("magneticraft")
+setDescription("Unlock magneticraft")
+setParent("triumph:Tech/magneticraft-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 7)

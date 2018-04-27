@@ -1,0 +1,5 @@
+setIcon("thuttech:lift")
+setTitle("thutttech")
+setDescription("Unlock thutttech")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

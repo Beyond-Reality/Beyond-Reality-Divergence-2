@@ -1,0 +1,7 @@
+setIcon("roots:staff")
+setTitle("roots 2")
+setDescription("Unlock roots 2")
+setParent("triumph:Magic/roots2-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 2)

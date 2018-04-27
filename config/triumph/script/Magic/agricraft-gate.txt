@@ -1,0 +1,5 @@
+setIcon("agricraft:seed_analyzer")
+setTitle("AgriCraft")
+setDescription("Unlock AgriCraft")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

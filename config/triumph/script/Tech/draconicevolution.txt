@@ -1,0 +1,7 @@
+setIcon("draconicevolution:draconic_core")
+setTitle("draconic evolutions")
+setDescription("Unlock draconic evolutions")
+setParent("triumph:Tech/draconicevolution-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 13)

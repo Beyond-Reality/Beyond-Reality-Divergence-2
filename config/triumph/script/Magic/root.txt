@@ -1,0 +1,16 @@
+setIcon("botania:spark")
+
+setTitle("Magic - Magic ")
+
+setDescription("Divergence Magic! Please follow instructions using the Better Questing interface by hitting the ~ key")
+
+setBackground("chisel:textures/blocks/animations/hades.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+addCriteria("location", "minecraft:location")

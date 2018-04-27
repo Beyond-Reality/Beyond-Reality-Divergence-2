@@ -1,0 +1,2 @@
+gamestage add @p fairylights
+summon minecraft:fireworks_rocket ~ ~ ~

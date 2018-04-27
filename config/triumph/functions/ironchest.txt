@@ -1,0 +1,2 @@
+gamestage add @p ironchest
+summon minecraft:fireworks_rocket ~ ~ ~

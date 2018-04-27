@@ -1,0 +1,5 @@
+setIcon("littletiles:saw")
+setTitle("LittleTiles")
+setDescription("Unlock LittleTiles")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

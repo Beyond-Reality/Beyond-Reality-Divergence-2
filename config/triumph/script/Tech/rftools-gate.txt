@@ -1,0 +1,5 @@
+setIcon("rftools:matter_transmitter")
+setTitle("rftools")
+setDescription("Unlock rftools")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

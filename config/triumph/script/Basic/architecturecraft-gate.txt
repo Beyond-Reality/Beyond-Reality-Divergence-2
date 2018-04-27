@@ -1,0 +1,5 @@
+setIcon("architecturecraft:largepulley")
+setTitle("Architecturecraft Gate")
+setDescription("Unlock architecture craft")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

@@ -1,0 +1,5 @@
+setIcon("psi:cad_assembly")
+setTitle("magical psi")
+setDescription("Unlock magical psi")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

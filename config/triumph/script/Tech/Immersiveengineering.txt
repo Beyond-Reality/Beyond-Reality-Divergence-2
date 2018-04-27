@@ -1,0 +1,7 @@
+setIcon("immersiveengineering:conveyor")
+setTitle("immersiveengineering")
+setDescription("Unlock immersiveengineering")
+setParent("triumph:Tech/immersiveengineering-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 1)

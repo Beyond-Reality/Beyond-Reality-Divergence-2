@@ -1,0 +1,5 @@
+setIcon("integratedtunnels:part_importer_world_energy_item")
+setTitle("integratedtunnels")
+setDescription("Unlock integratedtunnels")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

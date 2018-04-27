@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
-
     <lines at="topleft">
         <line>
             <str>Day {day}, {mctime} (</str>
@@ -12,34 +11,67 @@
             <str> time$f)</str>
         </line>
         <line>
-            <str>Biome: $e{biome}$f</str>
-            <if>
-                <var>slimes</var>
-                <str> ($aSlime$f)</str>
-                <str> </str>
-            </if>
+          <str>Season: $e{tanseason}$f</str>
         </line>
+    </lines>
+    <lines at="bottomleft">
         <line>
-            <str>FPS: </str>
-            <operation>
-                <str>gt</str>
-                <var>fps</var>
-                <num>60</num>
-                <num>45</num>
-                <num>30</num>
-                <num>15</num>
+            <var>mainhandicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>mainhanddamageleft</var>
+                    <var>mainhandmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
                 <num>0</num>
-                <str>$a</str>
                 <str>$e</str>
                 <str>$6</str>
                 <str>$c</str>
                 <str>$4</str>
                 <str/>
-            </operation>
-            <var>fps</var>
+            </op>
+            <max>
+                <var>mainhanddamageleft</var>
+                <num>0.5</num>
+                <str>{mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
+                <var>mainhandname</var>
+            </max>
+        </line>
+        <line>
+            <str> </str>
+        </line>
+        <line>
+            <var>offhandicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>offhanddamageleft</var>
+                    <var>offhandmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </op>
+            <max>
+                <var>offhanddamageleft</var>
+                <num>0.5</num>
+                <str>{offhanddamageleft}$f / $e{offhandmaxdamage}</str>
+                <var>offhandname</var>
+            </max>
         </line>
     </lines>
-    <lines at="bottemleft">
+    <lines at="bottomright">
         <line>
             <max>
                 <var>potiondurationticks0</var>
@@ -116,36 +148,10 @@
             <str> </str>
         </line>
         <line>
-            <var>equippedicon</var>
-            <str> </str>
-            <operation>
-                <str>ge</str>
-                <pct>
-                    <var>equippeddamageleft</var>
-                    <var>equippedmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <num>0</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-                <str/>
-            </operation>
-            <max>
-                <var>equippeddamageleft</var>
-                <num>0.5</num>
-                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
-                <var>equippedname</var>
-            </max>
-        </line>
-        <line>
             <str> </str>
         </line>
         <line>
-            <operation>
+            <op>
                 <str>ge</str>
                 <pct>
                     <var>helmetdamageleft</var>
@@ -158,7 +164,7 @@
                 <str>$6</str>
                 <str>$c</str>
                 <str>$4</str>
-            </operation>
+            </op>
             <max>
                 <var>helmetdamageleft</var>
                 <num>0.5</num>
@@ -169,7 +175,7 @@
             <var>helmeticon</var>
         </line>
         <line>
-            <operation>
+            <op>
                 <str>ge</str>
                 <pct>
                     <var>chestplatedamageleft</var>
@@ -182,7 +188,7 @@
                 <str>$6</str>
                 <str>$c</str>
                 <str>$4</str>
-            </operation>
+            </op>
             <max>
                 <var>chestplatedamageleft</var>
                 <num>0.5</num>
@@ -193,7 +199,7 @@
             <var>chestplateicon</var>
         </line>
         <line>
-            <operation>
+            <op>
                 <str>ge</str>
                 <pct>
                     <var>leggingsdamageleft</var>
@@ -206,7 +212,7 @@
                 <str>$6</str>
                 <str>$c</str>
                 <str>$4</str>
-            </operation>
+            </op>
             <max>
                 <var>leggingsdamageleft</var>
                 <num>0.5</num>
@@ -217,7 +223,7 @@
             <var>leggingsicon</var>
         </line>
         <line>
-            <operation>
+            <op>
                 <str>ge</str>
                 <pct>
                     <var>bootsdamageleft</var>
@@ -230,7 +236,7 @@
                 <str>$6</str>
                 <str>$c</str>
                 <str>$4</str>
-            </operation>
+            </op>
             <max>
                 <var>bootsdamageleft</var>
                 <num>0.5</num>

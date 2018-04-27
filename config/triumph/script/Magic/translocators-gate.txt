@@ -1,0 +1,5 @@
+setIcon("translocators:translocator_part")
+setTitle("translocators")
+setDescription("Unlock translocators")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

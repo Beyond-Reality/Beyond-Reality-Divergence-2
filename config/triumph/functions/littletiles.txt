@@ -1,0 +1,2 @@
+gamestage add @p littletiles
+summon minecraft:fireworks_rocket ~ ~ ~

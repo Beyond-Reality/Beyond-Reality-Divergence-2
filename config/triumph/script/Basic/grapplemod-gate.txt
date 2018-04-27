@@ -1,0 +1,5 @@
+setIcon("grapplemod:grapplinghook")
+setTitle("grapple mod")
+setDescription("Unlock Grapple Mod")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

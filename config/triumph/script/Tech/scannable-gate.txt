@@ -1,0 +1,5 @@
+setIcon("scannable:scanner")
+setTitle("scannable")
+setDescription("Unlock scannable")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

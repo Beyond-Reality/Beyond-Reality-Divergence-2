@@ -1,0 +1,2 @@
+gamestage add @p naturescompass
+summon minecraft:fireworks_rocket ~ ~ ~

@@ -1,0 +1,5 @@
+setIcon("cookingforblockheads:oven")
+setTitle("Cooking for blockheads")
+setDescription("Unlock Cooking for blockheads")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

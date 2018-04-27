@@ -1,0 +1,7 @@
+setIcon("pneumaticcraft:assembly_controller")
+setTitle("pneumaticcraft")
+setDescription("Unlock pneumaticcraft")
+setParent("triumph:Tech/pneumaticcraft-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 11)

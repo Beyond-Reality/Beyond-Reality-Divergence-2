@@ -1,0 +1,5 @@
+setIcon("botania:elementiumhelm")
+setTitle("botania addons")
+setDescription("Unlock botania addons")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

@@ -1,0 +1,5 @@
+setIcon("aov:blockangelic")
+setTitle("angel of venegence")
+setDescription("Unlock angel of venegence")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

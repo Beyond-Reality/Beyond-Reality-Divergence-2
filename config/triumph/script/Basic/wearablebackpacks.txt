@@ -1,0 +1,7 @@
+setIcon("wearablebackpacks:backpack")
+setTitle("wearable back packs")
+setDescription("Unlock wearable back packs")
+setParent("triumph:Basic/wearablebackpacks-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal1", 5)

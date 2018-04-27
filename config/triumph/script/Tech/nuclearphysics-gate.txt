@@ -1,0 +1,5 @@
+setIcon("nuclearphysics:machine")
+setTitle("nuclearphysics")
+setDescription("Unlock nuclearphysics")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

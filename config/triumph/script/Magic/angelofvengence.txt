@@ -1,0 +1,7 @@
+setIcon("aov:blockangelic")
+setTitle("angel of venegence")
+setDescription("Unlock angel of venegence")
+setParent("triumph:Magic/angelofvengence-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal1", 7)

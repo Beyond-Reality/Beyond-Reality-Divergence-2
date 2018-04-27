@@ -1,0 +1,7 @@
+setIcon("quark:custom_bookshelf")
+setTitle("BiblioCraft")
+setDescription("Unlock BiblioCraft")
+setParent("triumph:Basic/bibliocraft-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 1)

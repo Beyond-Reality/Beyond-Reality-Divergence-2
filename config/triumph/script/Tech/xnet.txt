@@ -1,0 +1,7 @@
+setIcon("xnet:router")
+setTitle("xnet")
+setDescription("Unlock xnet")
+setParent("triumph:Tech/xnet-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal4", 1)

@@ -1,0 +1,5 @@
+setIcon("soulshardstow:vile_sword")
+setTitle("soulshardstheoldways")
+setDescription("Unlock soulshardstheoldways")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

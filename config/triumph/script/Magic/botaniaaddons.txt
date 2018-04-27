@@ -1,0 +1,7 @@
+setIcon("botania:elementiumhelm")
+setTitle("botania addons")
+setDescription("Unlock botania addons")
+setParent("triumph:Magic/botaniaaddons-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal1", 11)

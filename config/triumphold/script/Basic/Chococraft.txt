@@ -1,0 +1,6 @@
+setIcon("chococraft:lovely_gysahl_green")
+setTitle("ChocoCraft")
+setDescription("Unlock ChocoCraft")
+setParent("triumph:Basic/root")
+criteria = addCriteria("basic3", "triumph:player_break_block")
+criteria.setBlock("beyondreality:pedestal0")

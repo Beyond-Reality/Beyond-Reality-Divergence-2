@@ -1,0 +1,2 @@
+gamestage add @p bibliocraft
+summon minecraft:fireworks_rocket ~ ~ ~

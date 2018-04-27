@@ -1,0 +1,5 @@
+setIcon("magicbees:manasteelscoop")
+setTitle("magic bees")
+setDescription("Unlock magic bees")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

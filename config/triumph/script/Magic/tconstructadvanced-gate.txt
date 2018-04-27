@@ -1,0 +1,5 @@
+setIcon("tconstruct:pickaxe")
+setTitle("tconstructadvanced")
+setDescription("Unlock tconstructadvanced")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

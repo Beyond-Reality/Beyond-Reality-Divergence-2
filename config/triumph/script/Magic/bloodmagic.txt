@@ -1,0 +1,7 @@
+setIcon("bloodmagic:altar")
+setTitle("bloodmagic")
+setDescription("Unlock bloodmagic")
+setParent("triumph:Magic/bloodmagic-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal1", 9)

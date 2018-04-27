@@ -1,0 +1,7 @@
+setIcon("grapplemod:grapplinghook")
+setTitle("grapple mod")
+setDescription("Unlock Grapple Mod")
+setParent("triumph:Basic/grapplemod-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 10)

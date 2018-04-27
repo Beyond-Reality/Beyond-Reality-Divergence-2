@@ -1,0 +1,5 @@
+setIcon("industrialwires:jacobs_ladder")
+setTitle("industrialwires")
+setDescription("Unlock industrialwires")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

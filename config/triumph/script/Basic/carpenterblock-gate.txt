@@ -1,0 +1,5 @@
+setIcon("carpentersblocks:carpenters_hammer")
+setTitle("CarpentersBlocks")
+setDescription("Unlock CarpentersBlocks Gate")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

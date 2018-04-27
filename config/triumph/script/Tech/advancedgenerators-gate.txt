@@ -1,0 +1,5 @@
+setIcon("advgenerators:iron_tubing")
+setTitle("advancedgenerators")
+setDescription("Unlock advancedgenerators")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

@@ -1,0 +1,7 @@
+setIcon("thuttech:lift")
+setTitle("thutttech")
+setDescription("Unlock thutttech")
+setParent("triumph:Tech/thutttech-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal4")

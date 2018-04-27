@@ -1,0 +1,7 @@
+setIcon("genera:glass_jar_full")
+setTitle("genera")
+setDescription("Unlock genera")
+setParent("triumph:Magic/genera-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal1", 14)

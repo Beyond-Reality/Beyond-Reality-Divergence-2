@@ -1,0 +1,7 @@
+setIcon("advgenerators:iron_tubing")
+setTitle("advancedgenerators")
+setDescription("Unlock advancedgenerators")
+setParent("triumph:Tech/advancedgenerators-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 9)

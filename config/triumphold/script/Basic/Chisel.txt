@@ -1,0 +1,6 @@
+setIcon("chisel:chisel_iron")
+setTitle("Chisel")
+setDescription("Unlock Buildcraft")
+setParent("triumph:Basic/root")
+criteria = addCriteria("basic2", "triumph:player_break_block")
+criteria.setBlock("beyondreality:pedestal0")

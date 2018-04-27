@@ -1,0 +1,5 @@
+setIcon("botania:manasteelhelm")
+setTitle("botania")
+setDescription("Unlock botania")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

@@ -1,162 +1,188 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        }
-    },
-    
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },
-        
-        "multiplayer":
-        {
-            "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
-            }
-        },
-        
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-            
-        "options":
-        {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
-        
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        }
-    },
-    
-    "labels":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
-            }
-        },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        }
-    },
-    
-    "other":
-    {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
-        }
+  "images": {
+    "title": {
+      "image": "menu:textures/logo.png",
+      "posX": -218,
+      "posY": 10,
+      "width": 440,
+      "height": 68,
+      "alignment": "top_center"
     }
+  },
+
+  "buttons": {
+    "singleplayer": {
+      "text": "menu.singleplayer",
+      "normalTextColor": 0,
+      "hoverTextColor": 16711680,
+      "shadow": "false",
+      "texture": "menu:textures/spnormal.png",
+      "posX": -63,
+      "posY": 80,
+      "width": 120,
+      "height": 20,
+      "imageWidth": 256,
+      "imageHeight": 60,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
+    },
+
+    "multiplayer": {
+      "text": "menu.multiplayer",
+      "normalTextColor": 0,
+      "hoverTextColor": 16711680,
+      "shadow": "false",
+      "texture": "menu:textures/spnormal.png",
+      "posX": -63,
+      "posY": 100,
+      "width": 120,
+      "height": 20,
+      "imageWidth": 256,
+      "imageHeight": 60,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
+    },
+
+    "mods": {
+      "text": "fml.menu.mods",
+      "normalTextColor": 0,
+      "hoverTextColor": 16711680,
+      "shadow": "false",
+      "texture": "menu:textures/spnormal.png",
+      "posX": -63,
+      "posY": 120,
+      "width": 120,
+      "height": 20,
+      "imageWidth": 256,
+      "imageHeight": 60,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
+      }
+    },
+
+    "language": {
+      "text": "",
+      "posX": -23,
+      "posY": -106,
+      "width": 20,
+      "height": 20,
+      "alignment": "bottom_right",
+      "action": {
+        "type": "openGui",
+        "gui": "languages"
+      }
+    },
+
+    "options": {
+      "text": "menu.options",
+      "normalTextColor": 0,
+      "hoverTextColor": 16711680,
+      "shadow": "false",
+      "texture": "menu:textures/spnormal.png",
+      "posX": -63,
+      "posY": 140,
+      "width": 120,
+      "height": 20,
+      "imageWidth": 256,
+      "imageHeight": 60,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+
+    "quit": {
+      "text": "menu.quit",
+      "normalTextColor": 0,
+      "hoverTextColor": 16711680,
+      "shadow": "false",
+      "texture": "menu:textures/spnormal.png",
+      "posX": -63,
+      "posY": 160,
+      "width": 120,
+      "height": 20,
+      "imageWidth": 256,
+      "imageHeight": 60,
+      "alignment": "center",
+      "action": {
+        "type": "quit"
+      }
+    },
+
+    "discord": {
+      "text": ".",
+      "shadow": false,
+      "texture": "menu:textures/discord3.png",
+      "posX": -205,
+      "posY": 50,
+      "width": 80,
+      "height": 80,
+      "imageWidth": 200,
+      "imageHeight": 195,
+      "alignment": "top_right",
+      "action": {
+        "type": "openLink",
+        "link": "http://discord.beyondrealitygaming.com/"
+      }
+    },
+
+    "refresh": {
+      "text": ".",
+      "posX": -23,
+      "posY": -128,
+      "width": 20,
+      "height": 20,
+      "alignment": "bottom_right",
+      "texture": "custommainmenu:textures/gui/buttons.png",
+      "action": {
+        "type": "refresh"
+      }
+    }
+  },
+
+  "labels": {
+    "fml": {
+      "text": "",
+      "posX": 57,
+      "posY": -35,
+      "color": -1,
+      "fontSize": 0.8,
+      "anchor": "middle",
+      "alignment": "bottom_left"
+    }
+
+  },
+
+  "other": {
+    "background": {
+      "image": "",
+      "slideshow": {
+        "images": [
+          "menu:textures/bg1.png",
+          "menu:textures/bg2.png",
+          "menu:textures/bg3.png",
+          "menu:textures/bg4.png",
+          "menu:textures/bg5.png",
+          "menu:textures/bg6.png",
+          "menu:textures/bg7.png",
+          "menu:textures/bg8.png",
+          "menu:textures/bg9.png",
+          "menu:textures/bg10.png",
+          "menu:textures/bg11.png",
+          "menu:textures/bg12.png"
+        ],
+        "displayDuration": 2,
+        "fadeDuration": 0
+      }
+    }
+  }
 }

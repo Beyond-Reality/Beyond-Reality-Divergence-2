@@ -1,0 +1,7 @@
+setIcon("betterwithmods:material", 48)
+setTitle("galacticcraft")
+setDescription("Unlock galacticcraft")
+setParent("triumph:Tech/galacticcraft-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3")

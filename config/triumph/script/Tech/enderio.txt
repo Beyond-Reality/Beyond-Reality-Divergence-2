@@ -1,0 +1,7 @@
+setIcon("enderio:block_sag_mill")
+setTitle("enderio")
+setDescription("Unlock enderio")
+setParent("triumph:Tech/enderio-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 14)

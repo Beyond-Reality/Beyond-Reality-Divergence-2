@@ -1,0 +1,5 @@
+setIcon("betterwithmods:material", 48)
+setTitle("galacticcraft")
+setDescription("Unlock galacticcraft")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

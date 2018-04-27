@@ -1,0 +1,7 @@
+setIcon("forestry:carpenter)
+setTitle("forestry")
+setDescription("Unlock forestry")
+setParent("triumph:Tech/forestry-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 15)

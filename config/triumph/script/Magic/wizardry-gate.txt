@@ -1,0 +1,5 @@
+setIcon("wizardry:cape")
+setTitle("wizardry")
+setDescription("Unlock wizardry")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

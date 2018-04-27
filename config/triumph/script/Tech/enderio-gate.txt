@@ -1,0 +1,5 @@
+setIcon("enderio:block_sag_mill")
+setTitle("enderio")
+setDescription("Unlock enderio")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

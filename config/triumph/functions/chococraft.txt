@@ -1,0 +1,2 @@
+gamestage add @p chococraft
+summon minecraft:fireworks_rocket ~ ~ ~

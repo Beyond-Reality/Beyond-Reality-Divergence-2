@@ -1,0 +1,5 @@
+setIcon("sync:item_placeholder")
+setTitle("Sync")
+setDescription("Unlock Sync")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

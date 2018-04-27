@@ -1,0 +1,7 @@
+setIcon("carpentersblocks:carpenters_hammer")
+setTitle("Carpenters Blocks")
+setDescription("Unlock Carpenters blocks")
+setParent("triumph:Basic/carpenterblock-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 2)

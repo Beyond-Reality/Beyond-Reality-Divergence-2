@@ -1,0 +1,5 @@
+setIcon("generallaymansaestheticspyingscreen:block_glass:1")
+setTitle("G.L.A.S.S")
+setDescription("Unlock G.L.A.S.S")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

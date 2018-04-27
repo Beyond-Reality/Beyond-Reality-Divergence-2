@@ -1,0 +1,7 @@
+setIcon("signals:rail_configurator")
+setTitle("Signals")
+setDescription("Unlock Signals")
+setParent("triumph:Basic/signals-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal1")

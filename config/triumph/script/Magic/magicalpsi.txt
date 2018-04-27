@@ -1,0 +1,7 @@
+setIcon("psi:cad_assembly")
+setTitle("magical psi")
+setDescription("Unlock magical psi")
+setParent("triumph:Magic/magicalpsi-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2")

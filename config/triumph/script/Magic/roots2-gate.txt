@@ -1,0 +1,5 @@
+setIcon("roots:staff")
+setTitle("roots 2")
+setDescription("Unlock roots 2")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

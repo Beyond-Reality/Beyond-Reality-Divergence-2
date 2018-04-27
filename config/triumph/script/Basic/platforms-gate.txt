@@ -1,0 +1,5 @@
+setIcon("platforms:platform")
+setTitle("platforms")
+setDescription("Unlock platforms")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

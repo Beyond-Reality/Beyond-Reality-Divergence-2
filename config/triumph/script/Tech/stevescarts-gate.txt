@@ -1,0 +1,5 @@
+setIcon("stevescarts:blockcartassembler")
+setTitle("stevescarts")
+setDescription("Unlock stevescarts")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

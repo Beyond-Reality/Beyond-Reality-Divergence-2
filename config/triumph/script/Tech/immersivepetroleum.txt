@@ -1,0 +1,7 @@
+setIcon("immersivepetroleum:schematic")
+setTitle("immersivepetroleum")
+setDescription("Unlock immersivepetroleum")
+setParent("triumph:Tech/immersivepetroleum-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 2)

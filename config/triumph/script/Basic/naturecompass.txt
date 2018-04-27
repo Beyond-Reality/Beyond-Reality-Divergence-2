@@ -1,0 +1,7 @@
+setIcon("naturescompass:naturescompass")
+setTitle("Nature Compass")
+setDescription("Unlock Nature Compass")
+setParent("triumph:Basic/naturecompass-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 13)

@@ -1,0 +1,2 @@
+gamestage add @p signals
+summon minecraft:fireworks_rocket ~ ~ ~

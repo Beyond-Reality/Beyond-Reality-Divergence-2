@@ -1,0 +1,7 @@
+setIcon("rftools:matter_transmitter")
+setTitle("rftools")
+setDescription("Unlock rftools")
+setParent("triumph:Tech/rftools-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 13)

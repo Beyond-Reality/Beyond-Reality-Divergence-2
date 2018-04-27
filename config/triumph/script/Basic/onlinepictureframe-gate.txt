@@ -1,0 +1,5 @@
+setIcon("opframe:opframe")
+setTitle("Online picture Frame")
+setDescription("Unlock Online picture Frame")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

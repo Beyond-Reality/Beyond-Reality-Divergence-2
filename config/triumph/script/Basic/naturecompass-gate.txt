@@ -1,0 +1,5 @@
+setIcon("naturescompass:naturescompass")
+setTitle("Nature Compass")
+setDescription("Unlock Nature Compass")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

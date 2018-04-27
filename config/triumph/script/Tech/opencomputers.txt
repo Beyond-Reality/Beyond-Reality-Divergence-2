@@ -1,0 +1,7 @@
+setIcon("opencomputers:case1")
+setTitle("opencomputers")
+setDescription("Unlock opencomputers")
+setParent("triumph:Tech/opencomputers-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 10)

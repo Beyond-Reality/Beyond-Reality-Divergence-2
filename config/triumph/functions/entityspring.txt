@@ -1,0 +1,2 @@
+gamestage add @p entityspring
+summon minecraft:fireworks_rocket ~ ~ ~

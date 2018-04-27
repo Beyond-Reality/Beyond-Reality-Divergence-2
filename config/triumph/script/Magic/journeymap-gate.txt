@@ -1,0 +1,5 @@
+setIcon("minecraft:filled_map")
+setTitle("journeymap")
+setDescription("Unlock journeymap")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

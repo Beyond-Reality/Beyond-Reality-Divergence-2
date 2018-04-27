@@ -1,0 +1,7 @@
+setIcon("extracells:part.base", 3)
+setTitle("extracells")
+setDescription("Unlock extracells")
+setParent("triumph:Tech/extracells-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 14)

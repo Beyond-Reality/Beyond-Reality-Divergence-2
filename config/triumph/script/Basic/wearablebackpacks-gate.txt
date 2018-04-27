@@ -1,0 +1,5 @@
+setIcon("wearablebackpacks:backpack")
+setTitle("wearable back packs")
+setDescription("Unlock wearable back packs")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

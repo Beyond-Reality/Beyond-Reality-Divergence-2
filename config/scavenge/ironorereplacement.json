@@ -1,0 +1,32 @@
+{
+  "block_pools": [{
+    "name": "ReplaceIron",
+    "type": {
+      "type": "block",
+      "name": "minecraft:gold_ore"
+    },
+    "clicktype": "break",
+    "properties": [{
+      "type": "modify_required",
+      "chance": "100",
+      "name": "minecraft:iron_ore",
+      "meta": "0",
+      "conditions": [{
+          "type": "require_block",
+          "name": "minecraft:stone",
+          "meta": "0",
+          "require": "true",
+          "sides": ["up", "down", "north", "south", "east", "west"]
+        },
+        {
+          "type": "require_item",
+          "name": "minecraft:stick"
+        }
+      ]
+    }],
+    "messages": [{
+      "id": "success",
+      "message": "New Iron ore deposit discovered"
+    }]
+  }]
+}

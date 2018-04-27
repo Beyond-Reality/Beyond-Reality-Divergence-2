@@ -1,0 +1,5 @@
+setIcon("xnet:router")
+setTitle("xnet")
+setDescription("Unlock xnet")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

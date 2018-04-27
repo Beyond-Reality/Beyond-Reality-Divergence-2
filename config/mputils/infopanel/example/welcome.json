@@ -1,0 +1,8 @@
+{
+  "loadOnLogin": true,
+  "mustRead": true,
+  "pages": [{
+    "title": "Divergence Info",
+    "file": "page1"
+  }]
+}

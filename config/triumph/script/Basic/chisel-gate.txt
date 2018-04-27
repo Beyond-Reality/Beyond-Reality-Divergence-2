@@ -1,0 +1,5 @@
+setIcon("chisel:chisel_iron")
+setTitle("Chisel")
+setDescription("Unlock chisel")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

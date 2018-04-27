@@ -1,0 +1,7 @@
+setIcon("industrialforegoing:petrified_fuel_generator")
+setTitle("industrialforegoing")
+setDescription("Unlock industrialforegoing")
+setParent("triumph:Tech/industrialforegoing-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal3", 3)

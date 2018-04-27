@@ -1,0 +1,5 @@
+setIcon("integrateddynamics:wrench")
+setTitle("integrateddynamics")
+setDescription("Unlock integrateddynamics")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

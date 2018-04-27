@@ -1,0 +1,2 @@
+gamestage add @p wearablebackpacks
+summon minecraft:fireworks_rocket ~ ~ ~

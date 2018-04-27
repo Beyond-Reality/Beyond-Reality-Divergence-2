@@ -1,0 +1,2 @@
+gamestage add @p sync
+summon minecraft:fireworks_rocket ~ ~ ~

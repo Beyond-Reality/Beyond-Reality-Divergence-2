@@ -1,0 +1,7 @@
+setIcon("sync:item_placeholder")
+setTitle("Sync")
+setDescription("Unlock Sync")
+setParent("triumph:Basic/sync-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal1", 2)

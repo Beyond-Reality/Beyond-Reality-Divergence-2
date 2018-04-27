@@ -1,0 +1,7 @@
+setIcon("compacter:compacter")
+setTitle("Compactor")
+setDescription("Unlock Compactor")
+setParent("triumph:Basic/compactor-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 5)

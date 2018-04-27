@@ -1,0 +1,7 @@
+setIcon("ironchest:iron_chest")
+setTitle("Iron Chest")
+setDescription("Unlock Iron Chest")
+setParent("triumph:Basic/ironchest-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal0", 11)

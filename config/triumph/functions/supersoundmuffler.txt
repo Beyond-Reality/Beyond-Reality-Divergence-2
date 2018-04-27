@@ -1,0 +1,2 @@
+gamestage add @p supersoundmuffler
+summon minecraft:fireworks_rocket ~ ~ ~

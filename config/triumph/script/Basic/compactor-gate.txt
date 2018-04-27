@@ -1,0 +1,5 @@
+setIcon("compacter:compacter")
+setTitle("compactor")
+setDescription("Unlock compactor")
+setParent("triumph:Basic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

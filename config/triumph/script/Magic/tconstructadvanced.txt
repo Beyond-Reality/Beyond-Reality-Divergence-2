@@ -1,0 +1,7 @@
+setIcon("tconstruct:pickaxe")
+setTitle("tconstructadvanced")
+setDescription("Unlock tconstructadvanced")
+setParent("triumph:Magic/tconstructadvanced-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 4)

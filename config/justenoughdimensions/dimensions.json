@@ -1,0 +1,34 @@
+{
+  "dimensions": [{
+    "dim": 21,
+    "dimensiontype": {
+      "id": 21,
+      "name": "Masters Realm",
+      "suffix": "_dim21",
+      "keeploaded": false,
+      "worldprovider": "WorldProviderSurfaceJED"
+    },
+    "worldinfo": {
+      "DayLength": "200",
+      "NightLength": "200",
+      "SkyColor": "91323",
+      "CloudColor": "0d1119",
+      "SkyDisableFlags": 2
+    },
+    "worldinfo_onetime": {
+      "generatorName": "flat",
+      "generatorOptions": "3;minecraft:air;127;",
+      "GameType": 1,
+      "DayTime": 18000,
+      "GameRules": {
+        "doDaylightCycle": "false",
+        "doMobSpawning": "false",
+        "pvp": "false",
+        "doWeatherCycle": "false"
+      }
+    },
+    "jed": {
+      "ForceGameMode": false
+    }
+  }]
+}

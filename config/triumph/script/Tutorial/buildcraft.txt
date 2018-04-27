@@ -1,0 +1,6 @@
+setIcon("buildcrafttransport:pipe_gold_item")
+setTitle("Step1")
+setDescription("Unlock Buildcraft")
+setParent("triumph:Tutorial/root")
+criteria = addCriteria("justatest", "triumph:player_break_block")
+criteria.setBlock("beyondreality:pedestal0")

@@ -1,0 +1,7 @@
+setIcon("translocators:translocator_part")
+setTitle("translocators")
+setDescription("Unlock translocators")
+setParent("triumph:Magic/translocators-gate")
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("beyondreality:pedestal2", 6)

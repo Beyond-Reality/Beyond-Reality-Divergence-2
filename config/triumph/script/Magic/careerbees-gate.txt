@@ -1,0 +1,5 @@
+setIcon("careerbees:bee.armor.head")
+setTitle("career bees")
+setDescription("Unlock career bees")
+setParent("triumph:Magic/root")
+criteria = addCriteria("impossible", "minecraft:impossible")

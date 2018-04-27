@@ -1,0 +1,5 @@
+setIcon("matteroverdrive:rogue_android_part")
+setTitle("matteroverdrive")
+setDescription("Unlock matteroverdrive")
+setParent("triumph:Tech/root")
+criteria = addCriteria("impossible", "minecraft:impossible")
